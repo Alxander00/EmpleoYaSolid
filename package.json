@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0",
     "solid-js": "^1.9.12"
   },
   "devDependencies": {

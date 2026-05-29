@@ -1,0 +1,62 @@
+.form-container-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 32px;
+  box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+.form-container-box:hover {
+  transform: translateY(-2px);
+}
+.icon-circle {
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(145deg, #0d6efd, #0a58ca);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 25px -8px rgba(13, 110, 253, 0.3);
+  transition: all 0.4s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+}
+.icon-circle i {
+  font-size: 3.2rem;
+  color: white;
+}
+.animated-tabs {
+  position: relative;
+  min-height: 320px;
+}
+.tab-pane.fade {
+  opacity: 0;
+  transform: translateX(8px) scale(0.98);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.tab-pane.fade.show {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+.btn-social-google {
+  background-color: #DB4437;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+}
+.btn-social-linkedin {
+  background-color: #0A66C2;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+}
+.btn-social-facebook {
+  background-color: #1877F2;
+  color: white;
+  border: none;
+  border-radius: 60px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 500;
+}
