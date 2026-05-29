@@ -1,0 +1,49 @@
+/* Estilos base: reset, fuentes, body, variables */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f7fc;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-radius: 40px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(13, 110, 253, 0.35);
+}
+
+.btn-outline-primary {
+  border-radius: 40px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+
+/* Utilidades */
+.fw-800 {
+  font-weight: 800;
+}
+.extra-small {
+  font-size: 0.7rem;
+}
