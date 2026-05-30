@@ -1,0 +1,66 @@
+css
+/* src/styles/candidato.css - Estilos específicos del candidato */
+.profile-banner {
+  border-radius: 28px;
+  background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(13, 110, 253, 0.2);
+}
+
+.avatar-overlap {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  margin-top: -55px;
+  background: linear-gradient(135deg, #1e293b, #334155);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.skill-pill {
+  background: #f1f5f9;
+  color: #475569;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin: 4px;
+  border: 1px solid #e2e8f0;
+}
+
+.progress-stepper {
+  position: relative;
+  padding-top: 5px;
+}
+.step-line {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  right: 5%;
+  height: 3px;
+  background-color: #e2e8f0;
+  z-index: 0;
+  border-radius: 5px;
+}
+.step-dot {
+  width: 16px;
+  height: 16px;
+  background-color: #e2e8f0;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 1px #cbd5e1;
+  transition: all 0.3s ease;
+}
+.step-dot.active {
+  background-color: #0d6efd;
+  box-shadow: 0 0 0 2px #0d6efd;
+  transform: scale(1.2);
+}
